@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الحوكمة: من النظام إلى الاستدامة - الوثق</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>الوثق</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">الرئيسية</a>
+                <a href="#challenges" class="nav-link">التحديات</a>
+                <a href="#solution" class="nav-link">الحلول</a>
+                <a href="#benefits" class="nav-link">الفوائد</a>
+                <a href="#process" class="nav-link">المنهجية</a>
+                <a href="#contact" class="nav-link">تواصل معنا</a>
+            </div>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    الحوكمة: من النظام إلى الاستدامة
+                    <span class="highlight">خارطة طريق للتميز المؤسسي مع الوثق</span>
+                </h1>
+                <p class="hero-subtitle">
+                    سؤال استراتيجي في زمن التحولات: هل قراراتكم تتخذ بناء على رؤية استراتيجية وبيانات واضحة، أم أنها غالباً ما تكون وليدة اللحظة؟
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('challenges')">
+                        اكتشف التحديات
+                        <i class="fas fa-arrow-down"></i>
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                        احجز جلسة مجانية
+                        <i class="fas fa-calendar"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card">
+                    <i class="fas fa-chart-line"></i>
+                    <h3>تحسين الأداء</h3>
+                    <p>زيادة الكفاءة التشغيلية بنسبة 30%</p>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>تقليل المخاطر</h3>
+                    <p>حماية شاملة من المخاطر التشغيلية</p>
+                </div>
+                <div class="floating-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>جذب الاستثمار</h3>
+                    <p>علاوة حوكمة تصل إلى 15%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Challenges Section -->
+    <section id="challenges" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>تكلفة الفوضى الخفية</h2>
+                <p>كيف يؤدي غياب الحوكمة إلى تآكل القيمة؟</p>
+            </div>
+            
+            <div class="challenges-grid">
+                <div class="challenge-card" data-aos="fade-up">
+                    <div class="card-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>تضارب الصلاحيات وهدر الموارد</h3>
+                    <p>عندما تكون خطوط السلطة والمسؤولية غير واضحة، يصبح الصراع الداخلي أمراً حتمياً</p>
+                    <div class="impact-meter">
+                        <span>التأثير: عالي</span>
+                        <div class="meter">
+                            <div class="meter-fill" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="challenge-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-icon">
+                        <i class="fas fa-eye-slash"></i>
+                    </div>
+                    <h3>ضعف الشفافية والمساءلة</h3>
+                    <p>في بيئة تفتقر إلى الشفافية، يزدهر الغموض وتتآكل ثقة أصحاب المصلحة</p>
+                    <div class="impact-meter">
+                        <span>التأثير: عالي</span>
+                        <div class="meter">
+                            <div class="meter-fill" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="challenge-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>بطء الاستجابة للمخاطر والفرص</h3>
+                    <p>غياب إطار حوكمة رشيد يجعل الشركة عاجزة عن الاستجابة السريعة للتحديات</p>
+                    <div class="impact-meter">
+                        <span>التأثير: متوسط</span>
+                        <div class="meter">
+                            <div class="meter-fill" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="analogy-section">
+                <div class="analogy-content">
+                    <h3>تشبيه مركزي: الأوركسترا بلا قائد</h3>
+                    <p>تخيلوا الوثق كأوركسترا سيمفونية تضم أمهر العازفين في العالم. كل عازف يبدع في معزوفته الخاصة، لكن في غياب قائد الأوركسترا ونوتة موسيقية مشتركة، النتيجة ضجيج وفوضى، وليست سيمفونية متناغمة.</p>
+                </div>
+                <div class="analogy-visual">
+                    <div class="orchestra-animation">
+                        <div class="musician">🎻</div>
+                        <div class="musician">🎺</div>
+                        <div class="musician">🥁</div>
+                        <div class="musician">🎹</div>
+                        <div class="conductor">👨‍🎨</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>الحوكمة كنظام تشغيل</h2>
+                <p>المنصة غير المرئية للنمو المنظم</p>
+            </div>
+
+            <div class="solution-intro">
+                <div class="intro-text">
+                    <p>الحوكمة ليست مجموعة من القواعد والقيود، بل هي نظام التشغيل (Operating System) الذي تعمل عليه شركتكم. إنها المنصة غير المرئية التي تضمن أن جميع تطبيقاتكم تعمل معاً بسلاسة وتناغم.</p>
+                </div>
+            </div>
+
+            <div class="principles-grid">
+                <div class="principle-card" data-aos="fade-up">
+                    <div class="principle-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>الشفافية</h3>
+                    <h4>من الغموض إلى وضوح الرؤية</h4>
+                    <p>وضوح الرؤية على جميع المستويات، وبناء جسور الثقة مع جميع أصحاب المصلحة</p>
+                    <ul>
+                        <li>قرارات استراتيجية مفهومة</li>
+                        <li>معايير أداء واضحة</li>
+                        <li>معلومات مالية متاحة</li>
+                    </ul>
+                </div>
+
+                <div class="principle-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="principle-icon">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>المساءلة</h3>
+                    <h4>من اللوم إلى ملكية النتائج</h4>
+                    <p>ثقافة ملكية النتائج حيث يتحول الموظفون من مجرد منفذين إلى ملاك لأهدافهم</p>
+                    <ul>
+                        <li>أدوار ومسؤوليات محددة</li>
+                        <li>مؤشرات قابلة للقياس</li>
+                        <li>تعلم من الأخطاء</li>
+                    </ul>
+                </div>
+
+                <div class="principle-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="principle-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>العدالة</h3>
+                    <h4>من المحسوبية إلى تكافؤ الفرص</h4>
+                    <p>أساس الإنتاجية والولاء من خلال معايير موضوعية وعادلة في جميع الممارسات</p>
+                    <ul>
+                        <li>سياسات عادلة</li>
+                        <li>تكافؤ الفرص</li>
+                        <li>بيئة عمل صحية</li>
+                    </ul>
+                </div>
+
+                <div class="principle-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="principle-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>الكفاءة</h3>
+                    <h4>من الهدر إلى الاستخدام الأمثل</h4>
+                    <p>الاستخدام الأمثل للموارد في كل جوانب العمل من خلال توحيد الإجراءات</p>
+                    <ul>
+                        <li>قضاء على الازدواجية</li>
+                        <li>تسريع اتخاذ القرارات</li>
+                        <li>توجيه الموارد للقيمة</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>الفوائد الملموسة</h2>
+                <p>من النظرية إلى الواقع: العائد الملموس على الاستثمار في الحوكمة</p>
+            </div>
+
+            <div class="benefits-tabs">
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-tab="financial">
+                        <i class="fas fa-chart-line"></i>
+                        الأداء المالي
+                    </button>
+                    <button class="tab-btn" data-tab="risk">
+                        <i class="fas fa-shield-alt"></i>
+                        إدارة المخاطر
+                    </button>
+                    <button class="tab-btn" data-tab="investment">
+                        <i class="fas fa-handshake"></i>
+                        جذب الاستثمار
+                    </button>
+                </div>
+
+                <div class="tab-content">
+                    <div class="tab-pane active" id="financial">
+                        <div class="benefit-content">
+                            <div class="benefit-text">
+                                <h3>تحسين الأداء المالي والتشغيلي</h3>
+                                <p>الحوكمة ليست مجرد ممارسة أخلاقية، بل هي محرك مباشر للأداء. عندما يتم تحديد الأدوار بوضوح، وتوحيد العمليات، ومواءمة الأهداف، فإن النتيجة الحتمية هي زيادة الكفاءة التشغيلية.</p>
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <div class="stat-number">30%</div>
+                                        <div class="stat-label">تحسين الكفاءة</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-number">25%</div>
+                                        <div class="stat-label">خفض التكاليف</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div class="stat-number">40%</div>
+                                        <div class="stat-label">زيادة الربحية</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="benefit-visual">
+                                <div class="chart-container">
+                                    <canvas id="financialChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="risk">
+                        <div class="benefit-content">
+                            <div class="benefit-text">
+                                <h3>تقليل المخاطر وتعزيز المرونة</h3>
+                                <p>في بيئة أعمال لا يمكن التنبؤ بها، تعمل الحوكمة كدرع واقٍ للمنظمة. من خلال إنشاء أنظمة قوية لإدارة المخاطر، وتحديد آليات واضحة للمساءلة، وضمان الامتثال للقوانين واللوائح.</p>
+                                <div class="risk-matrix">
+                                    <div class="risk-item low">
+                                        <span>مخاطر منخفضة</span>
+                                        <div class="risk-level">15%</div>
+                                    </div>
+                                    <div class="risk-item medium">
+                                        <span>مخاطر متوسطة</span>
+                                        <div class="risk-level">35%</div>
+                                    </div>
+                                    <div class="risk-item high">
+                                        <span>مخاطر عالية</span>
+                                        <div class="risk-level">50%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="benefit-visual">
+                                <div class="shield-animation">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane" id="investment">
+                        <div class="benefit-content">
+                            <div class="benefit-text">
+                                <h3>جذب الاستثمارات وتخفيض تكلفة رأس المال</h3>
+                                <p>في سوق رأس المال العالمي، أصبحت الحوكمة لغة مشتركة يتحدث بها المستثمرون. إنها المعيار الذي يستخدمونه لتقييم جودة الإدارة ومستوى المخاطر في أي فرصة استثمارية.</p>
+                                <div class="investment-stats">
+                                    <div class="investment-item">
+                                        <div class="investment-number">15%</div>
+                                        <div class="investment-label">علاوة الحوكمة</div>
+                                    </div>
+                                    <div class="investment-item">
+                                        <div class="investment-number">40%</div>
+                                        <div class="investment-label">انخفاض تكلفة رأس المال</div>
+                                    </div>
+                                    <div class="investment-item">
+                                        <div class="investment-number">3x</div>
+                                        <div class="investment-label">زيادة في التقييم</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="benefit-visual">
+                                <div class="growth-chart">
+                                    <div class="growth-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>منهجية العمل</h2>
+                <p>خارطة طريق التحول: رحلة من أربع خطوات نحو التميز في الحوكمة</p>
+            </div>
+
+            <div class="process-timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">1</div>
+                    <div class="timeline-content">
+                        <h3>التشخيص والفهم العميق</h3>
+                        <p>مرحلة الأساس التي نبني عليها كل شيء. الهدف هو تجاوز الفهم السطحي والوصول إلى فهم عميق لواقعكم الحالي.</p>
+                        <div class="timeline-activities">
+                            <div class="activity">
+                                <i class="fas fa-users"></i>
+                                <span>جلسات عمل استراتيجية</span>
+                            </div>
+                            <div class="activity">
+                                <i class="fas fa-file-alt"></i>
+                                <span>تحليل شامل للوثائق</span>
+                            </div>
+                            <div class="activity">
+                                <i class="fas fa-comments"></i>
+                                <span>مقابلات مع أصحاب المصلحة</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-marker">2</div>
+                    <div class="timeline-content">
+                        <h3>التصميم المشترك</h3>
+                        <p>بناء على مخرجات مرحلة التشخيص، ننتقل إلى تصميم الحل. هذه المرحلة هي عملية تصميم مشترك نضمن من خلالها أن يكون إطار الحوكمة ملكاً لكم.</p>
+                        <div class="timeline-activities">
+                            <div class="activity">
+                                <i class="fas fa-pencil-ruler"></i>
+                                <span>ورش عمل تفاعلية</span>
+                            </div>
+                            <div class="activity">
+                                <i class="fas fa-sitemap"></i>
+                                <span>تطوير الهياكل التنظيمية</span>
+                            </div>
+                            <div class="activity">
+                                <i class="fas fa-chart-bar"></i>
+                                <span>تحديد مؤشرات الأداء</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">3</div>
+                    <div class="timeline-content">
+                        <h3>التنفيذ والتمكين</h3>
+                        <p>أفضل الخطط تظل حبراً على ورق ما لم يتم تنفيذها بفعالية. في هذه المرحلة، ننتقل من التخطيط إلى العمل.</p>
+                        <div class="timeline-activities">
+                            <div class="activity">
+                                <i class="fas fa-rocket"></i>
+                                <span>إطلاق المبادرات الجديدة</span>
+                            </div>
+                            <div class="activity">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>برامج تدريبية مخصصة</span>
+                            </div>
+                            <div class="activity">
+                                <i class="fas fa-bullhorn"></i>
+                                <span>أدوات الاتصال الداخلية</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-marker">4</div>
+                    <div class="timeline-content">
+                        <h3>المتابعة والتحسين المستمر</h3>
+                        <p>الحوكمة ليست وجهة نصل إليها، بل هي رحلة مستمرة من التحسين والتكيف. لذلك، فإن المرحلة الأخيرة تركز على ضمان استدامة الأثر.</p>
+                        <div class="timeline-activities">
+                            <div class="activity">
+                                <i class="fas fa-search"></i>
+                                <span>مراجعة دورية للفعالية</span>
+                            </div>
+                            <div class="activity">
+                                <i class="fas fa-chart-line"></i>
+                                <span>قياس الأثر المحقق</span>
+                            </div>
+                            <div class="activity">
+                                <i class="fas fa-cogs"></i>
+                                <span>دعم استشاري مستمر</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>خطوتكم الأولى نحو التميز</h2>
+                <p>احجزوا جلسة تشخيص استراتيجية مجانية مدتها 60 دقيقة</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <h3>جلسة مجانية</h3>
+                        <p>60 دقيقة من الاستشارة الاستراتيجية المتخصصة</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h3>تحليل سريع</h3>
+                        <p>تحديد نقاط القوة والضعف في آليات العمل الحالية</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-road"></i>
+                        </div>
+                        <h3>خارطة طريق</h3>
+                        <p>تصور أولي لمراحل التحول نحو الحوكمة المثلى</p>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="consultationForm">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company">اسم الشركة</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="position">المنصب</label>
+                            <input type="text" id="position" name="position" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">رقم الهاتف</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">رسالة إضافية (اختياري)</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            احجز جلستي المجانية
+                            <i class="fas fa-arrow-left"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>الوثق</span>
+                    </div>
+                    <p>شريككم الاستراتيجي في بناء منظومة حوكمة متكاملة ومستدامة</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>خدماتنا</h4>
+                    <ul>
+                        <li><a href="#solution">استشارات الحوكمة</a></li>
+                        <li><a href="#process">تطوير الأنظمة</a></li>
+                        <li><a href="#benefits">تحليل المخاطر</a></li>
+                        <li><a href="#contact">التدريب والتطوير</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>تواصل معنا</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@alwathaq.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+966 50 123 4567</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>الرياض، المملكة العربية السعودية</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 الوثق. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
